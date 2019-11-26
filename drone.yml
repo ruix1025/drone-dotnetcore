@@ -6,5 +6,3 @@ pipeline:
     build-image:
         command:
             - docker build -t dotnetcore-container ./Web
-              docker tag dotnetcore-container xiar/dotnetcore-container
-              docker push xiar/dotnetcore-container
